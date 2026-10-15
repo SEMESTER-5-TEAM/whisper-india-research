@@ -1,0 +1,12 @@
+{
+  "replicates": 2000,
+  "seed": 42,
+  "resampling_unit": "speaker ID, sampled with replacement",
+  "number_of_speakers": 27,
+  "paired_comparisons": [
+    "forced_hindi_lora_minus_baseline",
+    "default_lora_minus_baseline"
+  ],
+  "confidence_interval": "percentile 95% interval (2.5th, 97.5th percentiles)",
+  "note": "WER is calculated from summed edit errors divided by summed reference words in each resampled cluster sample."
+}

@@ -1,0 +1,57 @@
+
+# Datasets and downloaded data
+data/
+
+# Archived experiments and duplicate backups
+archive/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Audio recordings and review clips
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Per-record predictions and individual error records
+results/**/whisper_small*_test_predictions.csv
+results/**/four_condition_per_record.csv
+results/**/four_condition_error_class_by_record.csv
+results/**/acoustic_failure_decode_errors.csv
+
+# Individual human-review data and embedded-audio reviewer pages
+results/**/targeted_review_audio/
+results/**/hallucination_screening/
+results/**/review_audio/
+results/**/review_audio_expanded/
+results/**/unflagged_review_audio/
+results/**/*.html
+
+# Keep aggregate evaluation metrics, summaries, plots and model files.
+# Accidental empty file
+/4
+
+# Office lock files
+.~lock.*
+# Keep individual human-review records local
+results/baseline/hallucination_review*.csv
+results/baseline/unflagged_random_sample_100*.csv
+results/baseline/unflagged_second_pass_audio_audit_20.csv
+results/lora_generic_hindi/targeted_human_validation*.csv
+results/baseline/hallucination_candidates*.csv

@@ -1,0 +1,5 @@
+condition,recordings,non_success_status_rows,empty_normalized_predictions,reference_words,reference_characters_excluding_spaces,substitutions,deletions,insertions,word_errors,corpus_WER,character_errors,corpus_CER_no_spaces
+baseline_forced_hindi,1313,0,0,38610,53107,16887,4764,15132,36783,0.9526806526806527,47396,0.8924623872559173
+lora_forced_hindi,1313,0,0,38610,53107,11344,4276,2979,18599,0.4817145817145817,19810,0.37302050577136725
+baseline_default,1313,0,2,38610,53107,17054,5310,14078,36442,0.9438487438487438,48234,0.908241851356695
+lora_default,1313,0,0,38610,53107,12349,5797,2985,21131,0.5472934472934473,26222,0.493757885024573

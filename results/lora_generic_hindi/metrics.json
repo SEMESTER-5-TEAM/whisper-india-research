@@ -1,0 +1,29 @@
+{
+  "evaluation_note": "Same held-out LAHAJA test recordings and Hindi greedy decoding for both models. WER/CER use lowercase Unicode alphanumeric normalization, punctuation removal, whitespace normalization; CER excludes spaces.",
+  "baseline": {
+    "model": "original_whisper_small",
+    "n_recordings": 1313,
+    "corpus_wer": 0.9578988326848249,
+    "corpus_cer": 0.8966237972395352,
+    "mean_recording_wer": 1.4491445334208148,
+    "mean_recording_cer": 1.4675524076788813,
+    "reference_words": 38550,
+    "reference_characters_no_spaces": 53107,
+    "mean_seconds_per_recording": 2.2006156130997714
+  },
+  "lora": {
+    "model": "generic_hindi_lora",
+    "n_recordings": 1313,
+    "corpus_wer": 0.487367055771725,
+    "corpus_cer": 0.3784435196866703,
+    "mean_recording_wer": 0.5064835092952272,
+    "mean_recording_cer": 0.38918195684808293,
+    "reference_words": 38550,
+    "reference_characters_no_spaces": 53107,
+    "mean_seconds_per_recording": 2.316605331302361
+  },
+  "delta_lora_minus_baseline": {
+    "corpus_wer": -0.4705317769130999,
+    "corpus_cer": -0.518180277552865
+  }
+}

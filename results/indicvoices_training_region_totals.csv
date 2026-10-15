@@ -1,0 +1,5 @@
+configuration,target_state,recordings,unique_speakers,speech_hours,completed_shards,total_shards,status
+assamese,Assam,125689,1432,243.34,30,347,PARTIAL
+bengali,West Bengal,0,0,0.0,30,347,PARTIAL
+kashmiri,Jammu Kashmir,0,0,0.0,30,347,PARTIAL
+tamil,Tamil Nadu,0,0,0.0,30,347,PARTIAL

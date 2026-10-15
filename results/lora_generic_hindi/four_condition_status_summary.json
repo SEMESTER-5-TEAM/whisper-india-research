@@ -1,0 +1,34 @@
+[
+  {
+    "condition": "baseline_forced_hindi",
+    "total_rows": 1313,
+    "status_counts": {
+      "success": 1313
+    },
+    "empty_normalized_predictions": 0
+  },
+  {
+    "condition": "lora_forced_hindi",
+    "total_rows": 1313,
+    "status_counts": {
+      "success": 1313
+    },
+    "empty_normalized_predictions": 0
+  },
+  {
+    "condition": "baseline_default",
+    "total_rows": 1313,
+    "status_counts": {
+      "success": 1313
+    },
+    "empty_normalized_predictions": 2
+  },
+  {
+    "condition": "lora_default",
+    "total_rows": 1313,
+    "status_counts": {
+      "success": 1313
+    },
+    "empty_normalized_predictions": 0
+  }
+]

@@ -1,0 +1,13 @@
+configuration,state,recordings,unique_speakers,speech_hours
+assamese,Assam,2531,162,4.773
+assamese,Assam,2531,270,3.535
+bengali,West Bengal,4009,493,6.588
+kashmiri,Jammu Kashmir,2767,234,4.181
+urdu,Uttar Pradesh,1521,203,2.447
+urdu,Delhi,903,118,1.465
+urdu,Bihar,551,69,1.122
+urdu,Telangana,256,40,0.323
+urdu,Maharashtra,139,26,0.263
+urdu,Jammu Kashmir,13,4,0.015
+tamil,Tamil Nadu,2638,312,4.855
+tamil,Tamil Nadu,2638,277,3.404

@@ -1,0 +1,36 @@
+dataset,state,total_records,candidates_reviewed,hallucinations,observed_hallucination_rate
+lahaja,Andhra Pradesh,60,3,3,5.0
+lahaja,Assam,60,14,14,23.333333333333332
+lahaja,Bihar,60,11,10,16.666666666666664
+lahaja,Chhattisgarh,40,2,2,5.0
+lahaja,Goa,60,7,7,11.666666666666666
+lahaja,Gujarat,60,6,6,10.0
+lahaja,Jammu Kashmir,60,16,16,26.666666666666668
+lahaja,Karnataka,60,8,8,13.333333333333334
+lahaja,Kerala,60,7,7,11.666666666666666
+lahaja,Madhya Pradesh,60,11,11,18.333333333333332
+lahaja,Maharashtra,60,10,10,16.666666666666664
+lahaja,Meghalaya,37,3,3,8.108108108108109
+lahaja,Odisha,60,10,10,16.666666666666664
+lahaja,Punjab,60,9,9,15.0
+lahaja,Rajasthan,60,6,6,10.0
+lahaja,Tamil Nadu,60,15,15,25.0
+lahaja,Telangana,60,5,5,8.333333333333332
+lahaja,West Bengal,60,16,16,26.666666666666668
+svarah,Andhra Pradesh,60,1,1,1.6666666666666667
+svarah,Assam,60,0,0,0.0
+svarah,Bihar,60,0,0,0.0
+svarah,Goa,60,2,2,3.3333333333333335
+svarah,Gujarat,60,5,5,8.333333333333332
+svarah,Jammu Kashmir,60,1,1,1.6666666666666667
+svarah,Karnataka,60,0,0,0.0
+svarah,Kerala,60,0,0,0.0
+svarah,Madhya Pradesh,37,1,1,2.7027027027027026
+svarah,Maharashtra,60,1,1,1.6666666666666667
+svarah,Meghalaya,51,0,0,0.0
+svarah,Odisha,60,1,1,1.6666666666666667
+svarah,Punjab,60,1,1,1.6666666666666667
+svarah,Rajasthan,60,0,0,0.0
+svarah,Tamil Nadu,60,1,1,1.6666666666666667
+svarah,Telangana,60,0,0,0.0
+svarah,West Bengal,60,1,1,1.6666666666666667

@@ -1,0 +1,23 @@
+metric,estimate,ci_2_5,ci_97_5,unit
+corpus_WER::baseline_forced_hindi,0.9526806526806527,0.8391772708687661,1.0376283404897273,WER fraction
+WER_contribution_percentage_points::baseline_forced_hindi::EMPTY,0.0,0.0,0.0,percentage points
+WER_contribution_percentage_points::baseline_forced_hindi::WRONG_SCRIPT,0.10878010878010878,0.0,0.2221141459898744,percentage points
+WER_contribution_percentage_points::baseline_forced_hindi::RUNAWAY,68.19217819217819,54.719319671747186,78.56990758815623,percentage points
+WER_contribution_percentage_points::baseline_forced_hindi::ORDINARY,26.967106967106968,24.317217310321393,30.215033088887388,percentage points
+corpus_WER::lora_forced_hindi,0.4817145817145817,0.4297127001091907,0.532874804039713,WER fraction
+WER_contribution_percentage_points::lora_forced_hindi::EMPTY,0.0,0.0,0.0,percentage points
+WER_contribution_percentage_points::lora_forced_hindi::WRONG_SCRIPT,0.0,0.0,0.0,percentage points
+WER_contribution_percentage_points::lora_forced_hindi::RUNAWAY,9.93006993006993,6.907107781056761,13.060790471225141,percentage points
+WER_contribution_percentage_points::lora_forced_hindi::ORDINARY,38.24138824138824,35.06416228556508,41.664034572401896,percentage points
+corpus_WER::baseline_default,0.9438487438487438,0.8332974344651033,1.0253037324907097,WER fraction
+WER_contribution_percentage_points::baseline_default::EMPTY,0.01295001295001295,0.0,0.03520675974418634,percentage points
+WER_contribution_percentage_points::baseline_default::WRONG_SCRIPT,5.31986531986532,2.9687555613985896,8.874671448023058,percentage points
+WER_contribution_percentage_points::baseline_default::RUNAWAY,63.88500388500388,50.37892168006523,74.5031275818112,percentage points
+WER_contribution_percentage_points::baseline_default::ORDINARY,25.167055167055167,23.261111391756437,27.236245186563036,percentage points
+corpus_WER::lora_default,0.5472934472934473,0.4802768374169429,0.6115824953436061,WER fraction
+WER_contribution_percentage_points::lora_default::EMPTY,0.0,0.0,0.0,percentage points
+WER_contribution_percentage_points::lora_default::WRONG_SCRIPT,12.639212639212639,6.634178092851488,20.04850278460549,percentage points
+WER_contribution_percentage_points::lora_default::RUNAWAY,8.894068894068894,4.577896070063015,14.26806258769829,percentage points
+WER_contribution_percentage_points::lora_default::ORDINARY,33.19606319606319,30.139086768306534,35.890543814078306,percentage points
+paired_WER_difference::forced_hindi_lora_minus_baseline,-0.470966070966071,-0.5434461197985422,-0.3826878625118554,WER fraction; negative favours LoRA
+paired_WER_difference::default_lora_minus_baseline,-0.39655529655529653,-0.4696936807416058,-0.3055685192766228,WER fraction; negative favours LoRA

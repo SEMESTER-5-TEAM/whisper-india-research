@@ -1,0 +1,38 @@
+{
+  "test_recordings": 1313,
+  "test_speakers": 27,
+  "bootstrap_replicates": 5000,
+  "bootstrap_unit": "speaker; paired baseline and LoRA predictions retained together",
+  "seed": 42,
+  "baseline": {
+    "corpus_wer": 0.9578988326848249,
+    "corpus_cer": 0.8966237972395352,
+    "word_errors": 36927,
+    "reference_words": 38550,
+    "character_errors": 47617,
+    "reference_characters_no_spaces": 53107
+  },
+  "lora": {
+    "corpus_wer": 0.487367055771725,
+    "corpus_cer": 0.3784435196866703,
+    "word_errors": 18788,
+    "reference_words": 38550,
+    "character_errors": 20098,
+    "reference_characters_no_spaces": 53107
+  },
+  "change_lora_minus_baseline": {
+    "corpus_wer": -0.4705317769130999,
+    "corpus_cer": -0.518180277552865
+  },
+  "speaker_bootstrap_95_percent_ci_for_change": {
+    "corpus_wer": [
+      -0.5432814462041033,
+      -0.38128663734301876
+    ],
+    "corpus_cer": [
+      -0.5949621492077217,
+      -0.42664087981491167
+    ]
+  },
+  "interpretation": "Negative changes favor LoRA. Region-level estimates with few speakers are exploratory."
+}

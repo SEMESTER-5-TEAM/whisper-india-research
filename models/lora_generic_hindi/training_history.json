@@ -1,0 +1,15 @@
+[
+  {
+    "epoch": 1,
+    "train": {
+      "mean_loss": 2.19186069128941,
+      "batches": 4265,
+      "seconds": 5055.19
+    },
+    "validation": {
+      "mean_loss": 1.5275450459963769,
+      "batches": 574,
+      "seconds": 202.17
+    }
+  }
+]
